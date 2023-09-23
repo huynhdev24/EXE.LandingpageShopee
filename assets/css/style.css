@@ -891,3 +891,17 @@ p {
 .about-box-content .wheretodownload img {
     width: 100%;
 }
+
+/* Responsive */
+@media (max-width: 1023px) {
+    .commont-keyword {
+        display: none;
+    }
+}
+
+/* fix spacing between header and main in small device */
+@media (max-width: 740px) {
+    .main {
+        margin-top: 20px;
+    }
+}
